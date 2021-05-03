@@ -1,0 +1,380 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap');
+
+/* custom props */
+:root {
+  --font-stack: 'Rubik', sans-serif;
+
+  /* color palette */
+  --dark-color: #14054d;
+  --med-color: #37357b;
+  --light-color: #c6c5d4;
+  --accent-color: #47cbda;
+
+  /* swatch colors */
+  --light-blue: #7d8cb9;
+  --light-grey: #a49895;
+  --dark-blue: #242f46;
+  --dark-grey: #3e3c3d;
+
+  /* misc */
+  --logo-height: 70px;
+}
+
+/* reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* elements */
+body {
+  background-color: var(--dark-color);
+  font-family: var(--font-stack);
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: whitesmoke;
+  text-rendering: optimizeSpeed;
+}
+
+h1 {
+  line-height: initial;
+}
+
+a {
+  color: var(--accent-color);
+}
+
+/* includes */
+nav {
+  height: var(--logo-height);
+}
+
+footer {
+  height: 500px;
+}
+
+footer p {
+  color: var(--dark-color);
+}
+
+img {
+  width: 100%;
+}
+
+/* styles */
+.logo {
+  max-height: var(--logo-height);
+}
+
+.lead {
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+.section-title {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.section-title p {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+/* swatch styles */
+.swatch-section {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.swatch-item {
+  margin: 0 10px;
+}
+
+.swatch {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border-radius: 3px;
+}
+
+.swatch-label {
+  color: var(--dark-color);
+  margin: 0 !important;
+}
+
+/* hero */
+#hero {
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+#hero p {
+  margin: 2rem 0;
+}
+
+/* what you win */
+#what .showcase p {
+  margin-bottom: 1rem;
+}
+
+/* how it works */
+#how table {
+  margin-top: 2rem;
+}
+
+.list {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.list td {
+  padding: 0.75rem;
+  font-size: 2rem;
+}
+
+.list .number {
+  color: var(--accent-color);
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+/* about moonloot */
+#about {
+  background-color: whitesmoke;
+}
+
+#about h2,
+.about-text {
+  color: var(--dark-color);
+}
+
+.about-title {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.about-text {
+  margin-bottom: 3rem;
+  text-align: left;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* form section */
+.form-container {
+  flex-direction: column;
+}
+
+/* utilities */
+.container {
+  width: min(80ch, 100vw - 2rem);
+  margin-right: auto;
+  margin-left: auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* backgrounds */
+.bg-dark {
+  background: var(--dark-color);
+  color: var(--light-color);
+}
+
+.bg-light {
+  background: var(--light-color);
+  color: var(--dark-color);
+}
+
+.bg-white {
+  background: whitesmoke;
+}
+
+.light-blue {
+  background: var(--light-blue);
+}
+
+.light-grey {
+  background: var(--light-grey);
+}
+
+.dark-blue {
+  background: var(--dark-blue);
+}
+
+.dark-grey {
+  background: var(--dark-grey);
+}
+
+/* border radius */
+.rounded {
+  border-radius: 0.5rem;
+}
+
+/* buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  cursor: pointer;
+  background: var(--accent-color);
+  color: var(--dark-color);
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid var(--light-color);
+}
+
+.btn:hover {
+  transform: scale(0.98);
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* box shadows */
+.shadow {
+  box-shadow: 0px 0px 100px var(--light-color);
+
+  /* box-shadow: 0px 50px 250px -47px rgba(39, 176, 230, 0.29); */
+}
+
+/* text colors */
+.text-dark {
+  color: var(--dark-color);
+}
+
+.text-accent {
+  color: var(--accent-color);
+}
+
+/* text sizes */
+.sm {
+  font-size: 1rem;
+}
+
+.md {
+  font-size: 2rem;
+}
+
+.lg {
+  font-size: 3rem;
+}
+
+.xl {
+  font-size: 4rem;
+}
+
+/* margins */
+.my-1 {
+  margin: 1rem 0;
+}
+
+.my-2 {
+  margin: 1.5rem 0;
+}
+
+.my-3 {
+  margin: 2rem 0;
+}
+
+.my-4 {
+  margin: 3rem 0;
+}
+
+.my-5 {
+  margin: 4rem 0;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.m-2 {
+  margin: 1.5rem;
+}
+
+.m-3 {
+  margin: 2rem;
+}
+
+.m-4 {
+  margin: 3rem;
+}
+
+.m-5 {
+  margin: 4rem;
+}
+
+/* paddings */
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 1.5rem 0;
+}
+
+.py-3 {
+  padding: 2rem 0;
+}
+
+.py-4 {
+  padding: 3rem 0;
+}
+
+.py-5 {
+  padding: 4rem 0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 1.5rem;
+}
+
+.p-3 {
+  padding: 2rem;
+}
+
+.p-4 {
+  padding: 3rem;
+}
+
+.p-5 {
+  padding: 4rem;
+}
