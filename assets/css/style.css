@@ -130,15 +130,23 @@ img {
 
 /* hero */
 #hero {
-  margin-top: 5rem;
-  margin-bottom: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 
-#hero p {
+.hero-cta {
+  margin-bottom: 2rem;
+}
+
+.hero-cta p {
   margin: 2rem 0;
 }
 
 /* what you win */
+#what {
+  padding-bottom: 2rem;
+}
+
 #what .showcase p {
   margin-bottom: 1rem;
 }
@@ -216,9 +224,13 @@ img {
 }
 
 .grid {
+  --min: 22ch;
+  --gap: 1rem;
+
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  gap: var(--gap);
+  grid-template-columns: repeat(auto-fit, minmax(var(--min), 1fr));
+
   justify-content: center;
   align-items: center;
   height: 100%;
