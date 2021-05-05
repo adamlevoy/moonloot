@@ -28,7 +28,7 @@ title: Moonloot • An Ethereum inspired brand, giving back to the ecosystem
 
             <div class="showcase grid text-center">
                 <!-- light mode -->
-                <div>
+                <div class="mt-2">
                     <!-- light tee -->
                     <h2 class="md text-dark">Light mode tee</h2>
                     <p class="text-dark">Premium tri-blend tee in your size</p>
@@ -37,24 +37,23 @@ title: Moonloot • An Ethereum inspired brand, giving back to the ecosystem
                     <!-- swatches light -->
                     <div class="swatch-section flex">
                         <div class="swatch-item flex">
-                            <a id="swatch-light-blue" class="swatch light-blue" role="button" aria-describedby="label-light-blue"></a>
-                        <p id="label-light-blue" class="swatch-label">Light Blue</p>
+                            <a id="swatch-light-grey" class="swatch light-grey swatch-select" role="button" aria-describedby="label-light-grey"></a>
+                            <p id="label-light-grey" class="swatch-label">Light Grey</p>
                         </div>
-
                         <div class="swatch-item flex">
-                            <a id="swatch-light-grey" class="swatch light-grey" role="button" aria-describedby="label-light-grey"></a>
-                        <p id="label-light-grey" class="swatch-label">Light Grey</p>
+                            <a id="swatch-light-blue" class="swatch light-blue" role="button" aria-describedby="label-light-blue"></a>
+                            <p id="label-light-blue" class="swatch-label">Light Blue</p>
                         </div>
                     </div>
 
                     <!-- light stickers -->
-                    <h2 class="md text-dark">Light mode stickers</h2>
+                    <h2 class="md mt-4 text-dark">Light mode stickers</h2>
                     <p class="text-dark">Bubble-free kiss cut sticker pack</p>
                     <img class="rounded" src="{{'/assets/images/vitalik-buterin-ethereum-stickers-light.jpg' | relative_url }}" alt="vitalik buterin t-shirt" />
                 </div>
 
                 <!-- dark mode -->
-                <div>
+                <div class="mt-2">
                     <!-- dark tee -->
                     <h2 class="md text-dark">Dark mode tee</h2>
                     <p class="text-dark">Premium tri-blend tee in your size</p>
@@ -63,18 +62,17 @@ title: Moonloot • An Ethereum inspired brand, giving back to the ecosystem
                     <!-- dark swatches  -->
                     <div class="swatch-section flex">
                         <div class="swatch-item flex">
-                            <div id="swatch-dark-blue" class="swatch dark-blue" role="button" aria-describedby="label-dark-blue"></div>
-                        <p id="label-dark-blue" class="swatch-label">Dark Blue</p>
+                            <a id="swatch-dark-grey" class="swatch dark-grey swatch-select" role="button" aria-describedby="label-dark-grey"></a>
+                            <p id="label-dark-grey" class="swatch-label">Dark Grey</p>
                         </div>
-
                         <div class="swatch-item flex">
-                            <div id="swatch-dark-grey" class="swatch dark-grey" role="button" aria-describedby="label-dark-grey"></div>
-                        <p id="label-dark-grey" class="swatch-label">Dark Grey</p>
+                            <a id="swatch-dark-blue" class="swatch dark-blue" role="button" aria-describedby="label-dark-blue"></a>
+                            <p id="label-dark-blue" class="swatch-label">Dark Blue</p>
                         </div>
                     </div>
 
                     <!-- sticker -->
-                    <h2 class="md text-dark">Dark mode stickers</h2>
+                    <h2 class="md mt-4 text-dark">Dark mode stickers</h2>
                     <p class="text-dark">Bubble-free kiss cut sticker pack</p>
                     <img class="rounded" src="{{'/assets/images/vitalik-buterin-ethereum-stickers-dark.jpg' | relative_url }}" alt="vitalik buterin t-shirt" />
                 </div>
@@ -131,17 +129,17 @@ title: Moonloot • An Ethereum inspired brand, giving back to the ecosystem
                 <h2 id="sign-up" class="lg">Step 1</h2>
                 <p class="lead md">Sign-up for launch announcement</p>
                 <p>Pick your t-shirt color & size preference!</p>
-        <!-- form -->
-            <div data-mooform-id="79b75ad9-ad2d-479d-93b6-20ef30b79903" class="my-3"></div>
-            <script>if(!window.mootrack){ !function(t,n,e,o,a){function d(t){var n=~~(Date.now()/3e5),o=document.createElement(e);o.async=!0,o.src=t+"?ts="+n;var a=document.getElementsByTagName(e)[0];a.parentNode.insertBefore(o,a)}t.MooTrackerObject=a,t[a]=t[a]||function(){return t[a].q?void t[a].q.push(arguments):void(t[a].q=[arguments])},window.attachEvent?window.attachEvent("onload",d.bind(this,o)):window.addEventListener("load",d.bind(this,o),!1)}(window,document,"script","https://cdn.stat-track.com/statics/moosend-tracking.min.js","mootrack"); } mootrack('loadForm', '79b75ad9ad2d479d93b620ef30b79903');</script>
             </div>
+            <!-- form -->
+            <div data-mooform-id="79b75ad9-ad2d-479d-93b6-20ef30b79903" class="my-3"></div>
+            {% include form.html %}
         </div>
 
         <!-- step 2 -->
         <div id="step-2" class="container">
             <div class="section-title">
                 <h2 class="lg">Step 2</h2>
-                <p class="lead md">Follow us on twitter @moonlootco</p>
+                <p class="lead md">Follow us on twitter</p>
                 <p>We'll be announcing the winners over the coming weeks, so make sure to follow along!</p>
             </div>
             <a href="https://twitter.com/moonlootco" class="btn my-2">Follow us</a>

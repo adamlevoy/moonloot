@@ -36,6 +36,7 @@ body {
   line-height: 1.5;
   color: whitesmoke;
   text-rendering: optimizeSpeed;
+  min-height: 100vh;
 }
 
 h1 {
@@ -49,15 +50,6 @@ a {
 ul {
   list-style: none;
 }
-
-/* includes */
-/* nav {
-  height: var(--logo-height);
-} */
-
-/* footer .container nav {
-  overflow: initial;
-} */
 
 footer p,
 footer nav a {
@@ -106,6 +98,12 @@ img {
   margin: 0 auto;
 }
 
+.not-found {
+  display: grid;
+  place-content: center;
+  min-height: 50vh;
+}
+
 /* swatch styles */
 .swatch-section {
   margin-top: 1rem;
@@ -127,6 +125,11 @@ img {
 .swatch-label {
   color: var(--dark-color);
   margin: 0 !important;
+}
+
+.swatch-select {
+  border: 3px solid var(--accent-color);
+  padding: 10px;
 }
 
 /* hero */
@@ -226,7 +229,7 @@ img {
 
 .grid {
   --min: 22ch;
-  --gap: 1rem;
+  --gap: 2rem;
 
   display: grid;
   gap: var(--gap);
@@ -378,6 +381,22 @@ img {
 
 .m-5 {
   margin: 4rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 1.5rem;
+}
+
+.mt-3 {
+  margin-top: 2rem;
+}
+
+.mt-4 {
+  margin-top: 3rem;
 }
 
 /* paddings */
