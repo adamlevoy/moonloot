@@ -17,11 +17,12 @@
     <link rel="icon" type="image/png" sizes="16x16" href="{{ '/favicon-16x16.png' | relative_url }}">
     <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
 
-
+    {% include analytics.html %}
 </head>
 <body>
     {% include nav.html %}
     {{content}}
     {% include footer.html %}
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
 </body>
 </html>
