@@ -1,0 +1,16 @@
+plugins:
+  - jekyll-seo-tag
+
+image: /assets/images/vitalik-buterin-ethereum-t-shirt-light-blue.jpg
+
+logo: /assets/images/moonloot-logo-dark-purple.svg
+
+twitter:
+  username: moonlootco
+  card: summary
+
+social:
+  - https://twitter.com/moonlootco
+
+kramdown:
+  parse_block_html: true

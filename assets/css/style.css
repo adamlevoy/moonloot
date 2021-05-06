@@ -51,6 +51,11 @@ ul {
   list-style: none;
 }
 
+/* article {
+  max-width: 600px;
+  margin: 0 auto;
+} */
+
 footer p,
 footer nav a {
   color: var(--dark-color);
