@@ -109,6 +109,10 @@ img {
   min-height: 50vh;
 }
 
+.policy {
+  max-width: 800px;
+}
+
 /* swatch styles */
 .swatch-section {
   margin-top: 1rem;
@@ -222,7 +226,7 @@ img {
   margin-right: auto;
   margin-left: auto;
   overflow: auto;
-  padding: 0 40px;
+  padding: 0 1rem;
 }
 
 .flex {

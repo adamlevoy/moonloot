@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: policy
 title: Privacy Policy
 ---
 

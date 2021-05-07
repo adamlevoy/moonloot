@@ -1,6 +1,8 @@
 plugins:
   - jekyll-seo-tag
 
+url: moonloot.co
+
 image: /assets/images/vitalik-buterin-ethereum-t-shirt-light-blue.jpg
 
 logo: /assets/images/moonloot-logo-dark-purple.svg
