@@ -17,6 +17,9 @@
   --dark-blue: #242f46;
   --dark-grey: #3e3c3d;
 
+  /* gradient */
+  --gradient: linear-gradient(135deg, #14054d, #21176a, rgba(55, 53, 123, 1));
+
   /* misc */
   --logo-height: 70px;
 }
@@ -31,6 +34,7 @@
 /* elements */
 body {
   background-color: var(--dark-color);
+  /* background: var(--gradient); */
   font-family: var(--font-stack);
   font-size: 1.25rem;
   line-height: 1.5;
@@ -210,10 +214,6 @@ img {
 }
 
 /* steps */
-#step-3 {
-  margin-bottom: 3rem;
-}
-
 #step-1 p,
 #step-2 p,
 #step-3 p {
@@ -270,6 +270,10 @@ img {
 
 .bg-white {
   background: whitesmoke;
+}
+
+.bg-gradient {
+  background: var(--gradient);
 }
 
 .light-blue {
