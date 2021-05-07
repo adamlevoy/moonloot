@@ -3,9 +3,9 @@ plugins:
 
 url: moonloot.co
 
-image: /assets/images/giveaway-promo.jpg
+image: https://moonloot.co/assets/images/giveaway-promo.jpg
 
-logo: /assets/images/moonloot-logo-dark-purple.svg
+logo: https://moonloot.co/assets/images/moonloot-logo-dark-purple.svg
 
 twitter:
   username: moonlootco
