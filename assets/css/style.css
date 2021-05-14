@@ -51,14 +51,17 @@ a {
   color: var(--accent-color);
 }
 
-ul {
+/* ul {
   list-style: none;
-}
-
-/* article {
-  max-width: 600px;
-  margin: 0 auto;
 } */
+
+article {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  max-width: 650px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 footer p,
 footer nav a {
@@ -72,6 +75,10 @@ footer .social a {
 
 footer .social i {
   font-size: 2.5rem;
+}
+
+footer ul {
+  list-style: none;
 }
 
 img {

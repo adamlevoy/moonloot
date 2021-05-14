@@ -13,6 +13,3 @@ twitter:
 
 social:
   - https://twitter.com/moonlootco
-
-kramdown:
-  parse_block_html: true
