@@ -257,6 +257,10 @@ img {
   text-align: center;
 }
 
+.nft-wrapper {
+  margin-bottom: 2rem;
+}
+
 /* backgrounds */
 .bg-dark {
   background: var(--dark-color);
