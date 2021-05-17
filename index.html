@@ -51,7 +51,7 @@ image: https://moonloot.co/assets/images/giveaway-promo.jpg
                     <!-- light stickers -->
                     <h2 class="md mt-4 text-dark">Light mode stickers</h2>
                     <p class="text-dark">Bubble-free kiss cut sticker pack</p>
-                    <img class="rounded" src="{{'/assets/images/vitalik-buterin-ethereum-stickers-light.jpg' | relative_url }}" alt="vitalik buterin t-shirt" />
+                    <img class="rounded" src="{{'/assets/images/vitalik-sticker-light.jpg' | relative_url }}" alt="vitalik buterin t-shirt" />
                 </div>
 
                 <!-- dark mode -->
@@ -76,7 +76,7 @@ image: https://moonloot.co/assets/images/giveaway-promo.jpg
                     <!-- sticker -->
                     <h2 class="md mt-4 text-dark">Dark mode stickers</h2>
                     <p class="text-dark">Bubble-free kiss cut sticker pack</p>
-                    <img class="rounded" src="{{'/assets/images/vitalik-buterin-ethereum-stickers-dark.jpg' | relative_url }}" alt="vitalik buterin t-shirt" />
+                    <img class="rounded" src="{{'/assets/images/vitalik-sticker-dark.jpg' | relative_url }}" alt="vitalik buterin t-shirt" />
                 </div>
             </div>
         </div>
@@ -115,11 +115,11 @@ image: https://moonloot.co/assets/images/giveaway-promo.jpg
             <div class="about-text">
                 <h3>Who we are</h3>
                 <p>
-                    Monoloot is a passion project founded by Ethereans seeking to participate in and contribute to the Ethereum ecosystem. We are scratching our own itch for original Ethereum inspired merchandise, while building a channel that gives back to the Etherverse.
+                    Monoloot is a passion project founded by <a href="https://twitter.com/adamlevoy">an Etherean</a> seeking to giveback to the Ethereum ecosystem. We are scratching our own itch for original Ethereum inspired merchandise, while building a sustainable channel that gives back to the Etherverse.
                 </p><br>
                 <h3>How we give back</h3>
                 <p>
-                    We donate to Ethereum related Gitcoin grants voted on by our customers. Proceeds from the sale of our products go to our grant treasury, an Ethereum wallet. We curate a list of Gitcoin grants doing meaningful things in the Etherverse. Our customers vote on which grants we support.
+                    We donate to Ethereum related Gitcoin grants voted on by our subscribers. Proceeds from the sale of our products go to our grant treasury. We curate a list of Gitcoin grants doing meaningful things in the Etherverse. Our subscribers vote on which grants we support.
                 </p><br>
                 <h3>Why support us</h3>
                 <p>
@@ -172,28 +172,18 @@ image: https://moonloot.co/assets/images/giveaway-promo.jpg
             </div>
         </div>
 
+        <!-- NFT -->
         <div id="nft" class="container">
             <div class="section-title">
                 <h2 class="lg">In the meantime...</h2>
-                <p class="lead md">Checkout our NFTs!</p>
-                <p>We created a special collection on OpenSea. Proceeds from the sale will support our mission.</p>
+                <p class="lead md">Checkout our NFT</p>
+                <p>Own the orginal <strong>Vitalik is my homeboy</strong> artwork. Proceeds from the sale will support our mission.</p>
             </div>
             <div class="nft-wrapper">
-                <nft-card
-                contractAddress="0x495f947276749ce646f68ac8c248420045cb7b5e"
-                tokenId="27296805818669266200773806668549995699027158520484287388541104602819187441665">
-                </nft-card>
-                <script src="https://unpkg.com/embeddable-nfts/dist/nft-card.min.js"></script>
-            </div>
 
-            <div class="nft-wrapper">
-                <nft-card
-                contractAddress="0x495f947276749ce646f68ac8c248420045cb7b5e"
-                tokenId="27296805818669266200773806668549995699027158520484287388541104603918699069441">
-                </nft-card>
-                <script src="https://unpkg.com/embeddable-nfts/dist/nft-card.min.js"></script>
-            </div>
+                {% include nft.html %}
 
+            </div>
         </div>
 
     </section>
